@@ -17,7 +17,6 @@ I built and ran this scraper and generated the complete dataset the client reque
 The client ended up hiring someone else (perhaps they never saw my application). So I open-sourced it.
 
 ### Performance Comparison
-up
 The key to this approach was bypassing slow browser automation (like Selenium or Playwright) and instead reverse-engineering the website's underlying ASP.NET HTTP requests. This resulted in a massive performance gain.
 
 | Method | Estimated Time to Complete | Actual Time to Complete |
