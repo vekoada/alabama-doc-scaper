@@ -8,7 +8,7 @@ A high-performance scraper built for an Upwork job that was awarded to someone e
 
 ---
 
-## The Story: The Solution is the Proposal
+## Story
 
 I came across an Upwork job offering for a freelancer to scrape all inmate information from the Alabama Department of Corrections website. Rather than just submitting a proposal with vague promises, I decided to solve the entire problem upfront.
 
@@ -17,13 +17,13 @@ In less than 4 hours, I designed, built, and ran this scraper, generating the co
 The client ended up hiring someone else (perhaps they never saw my application). So I open-sourced it.
 
 ### Performance Comparison
-
+up
 The key to this approach was bypassing slow browser automation (like Selenium or Playwright) and instead reverse-engineering the website's underlying ASP.NET HTTP requests. This resulted in a massive performance gain.
 
 | Method | Estimated Time to Complete | Actual Time to Complete |
 | :--- | :--- | :--- |
 | **Browser Automation** (e.g., Playwright) | `~ 15+ Hours` | N/A |
-| **Direct HTTP Requests (This Repo)** | `~ 30 Minutes` | **✅ < 30 Minutes** |
+| **Direct HTTP Requests (This Repo)** | `~ 30 Minutes` | **< 30 Minutes** |
 
 The initial collection of all 27,000+ unique inmate ID numbers (`AIS #`) completes in about **10 seconds**.
 
