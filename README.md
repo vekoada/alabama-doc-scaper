@@ -80,7 +80,7 @@ This direct-request method is orders of magnitude faster and uses significantly 
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/vekoada/alabama_inmates.git
+git clone https://github.com/vekoada/alabama-doc-scraper.git
 cd alabama_inmates
 ```
 
