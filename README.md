@@ -12,7 +12,7 @@ A high-performance scraper built for an Upwork job that was awarded to someone e
 
 I came across an Upwork job offering for a freelancer to scrape all inmate information from the Alabama Department of Corrections website. Rather than just submitting a proposal with vague promises, I decided to solve the entire problem upfront.
 
-In less than 4 hours, I designed, built, and ran this scraper, generating the complete dataset the client requested. I attached the final Excel file to my proposal, effectively delivering the finished product before even being hired.
+I built and ran this scraper and generated the complete dataset the client requested. I attached the final Excel file to my proposal, effectively delivering the finished product before even being hired.
 
 The client ended up hiring someone else (perhaps they never saw my application). So I open-sourced it.
 
